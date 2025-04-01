@@ -26,9 +26,10 @@ batchsize_val = 2
 shuffle_val = False
 val_freq = 50
 
+#for Kaggle use this as path /kaggle/input/steganography-imagenet/steganography_dataset_imagenet/train
 
 # Dataset
-TRAIN_PATH = './data/imagenet/steganography_dataset_imagenet/train/' #/teamspace/studios/this_studio/HiNet-stego/data/imagenet/steganography_dataset_imagenet/train
+TRAIN_PATH = '/kaggle/input/steganography-imagenet/steganography_dataset_imagenet/train/'#'./data/imagenet/steganography_dataset_imagenet/train/' #/teamspace/studios/this_studio/HiNet-stego/data/imagenet/steganography_dataset_imagenet/train
 VAL_PATH = './data/imagenet/steganography_dataset_imagenet/val/'
 format_train = 'png'
 format_val = 'png'
