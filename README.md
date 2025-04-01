@@ -1,8 +1,3 @@
-# HiNet-stego
-
-Below is a sample concise and professional **README.md** for the repository:
-
----
 
 # HiNet-stego
 
@@ -85,11 +80,3 @@ HiNet-stego leverages the HiNet framework for steganography to train models on a
 ## Acknowledgements
 
 - Original HiNet repository by [TomTomTommi](https://github.com/TomTomTommi/HiNet).
-
-## License
-
-*Specify license information if applicable.*
-
----
-
-This README provides a clear overview of the project's purpose, setup instructions, and usage guidelines while remaining concise and professional.
