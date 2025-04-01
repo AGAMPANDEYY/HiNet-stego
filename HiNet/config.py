@@ -13,7 +13,7 @@ lamda_low_frequency = 1
 device_ids = [0]
 
 # Train:
-batch_size = 16
+batch_size = 8
 cropsize = 224
 betas = (0.5, 0.999)
 weight_step = 1000
