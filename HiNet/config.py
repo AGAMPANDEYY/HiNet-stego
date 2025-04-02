@@ -55,6 +55,6 @@ IMAGE_PATH_steg = IMAGE_PATH + 'steg/'
 IMAGE_PATH_secret_rev = IMAGE_PATH + 'secret-rev/'
 
 # Load:
-suffix = 'model.pt'
+suffix = ''
 tain_next = True
 trained_epoch = 500
