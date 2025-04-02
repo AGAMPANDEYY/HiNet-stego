@@ -44,7 +44,7 @@ progress_bar = False
 
 # Saving checkpoints:
 
-MODEL_PATH = './output/model/'
+MODEL_PATH = '/kaggle/input/hinet500/pytorch/default/1/model_checkpoint_00500.pt'
 checkpoint_on_error = True
 SAVE_freq = 50
 
