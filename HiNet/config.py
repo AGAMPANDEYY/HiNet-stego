@@ -44,7 +44,7 @@ progress_bar = False
 
 # Saving checkpoints:
 
-MODEL_PATH = '/kaggle/input/hinet500/pytorch/default/1/model_checkpoint_00500.pt'
+MODEL_PATH = './output/model/'
 checkpoint_on_error = True
 SAVE_freq = 50
 
@@ -55,6 +55,7 @@ IMAGE_PATH_steg = IMAGE_PATH + 'steg/'
 IMAGE_PATH_secret_rev = IMAGE_PATH + 'secret-rev/'
 
 # Load:
-suffix = ''
+suffix = '/kaggle/input/hinet500/pytorch/default/1/model_checkpoint_00500.pt'
 tain_next = True
-trained_epoch = 500
+trained_epoch = 500  # Update this to the epoch from which you want to resume
+
