@@ -89,7 +89,8 @@ dwt = common.DWT()
 iwt = common.IWT()
 
 if c.tain_next:
-    load(c.MODEL_PATH + c.suffix)
+    #load(c.MODEL_PATH + c.suffix)
+    load('/kaggle/input/hinet500/pytorch/default/1/model_checkpoint_00500.pt')
 
 try:
     writer = SummaryWriter(comment='hinet', filename_suffix="steg")
