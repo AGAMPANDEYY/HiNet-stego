@@ -55,7 +55,7 @@ IMAGE_PATH_steg = IMAGE_PATH + 'steg/'
 IMAGE_PATH_secret_rev = IMAGE_PATH + 'secret-rev/'
 
 # Load:
-suffix = '/kaggle/input/hinet500/pytorch/default/1/model_checkpoint_00500.pt'
+suffix = 'model.pt'
 tain_next = True
 trained_epoch = 500  # Update this to the epoch from which you want to resume
 
