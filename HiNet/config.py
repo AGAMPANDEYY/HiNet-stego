@@ -56,5 +56,5 @@ IMAGE_PATH_secret_rev = IMAGE_PATH + 'secret-rev/'
 
 # Load:
 suffix = 'model.pt'
-tain_next = False
-trained_epoch = 0
+tain_next = True
+trained_epoch = 500
