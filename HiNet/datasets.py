@@ -44,8 +44,8 @@ class Hinet_Dataset(Dataset):
             self.files_cover = natsorted(glob.glob(c.VAL_PATH + "/cover/*.JPEG", recursive=True))
             self.files_secret=natsorted(glob.glob(c.VAL_PATH + "/secret/*.JPEG", recursive=True))
             # Randomly select 100 images from each
-            self.files_cover = random.sample(self.files_cover, min(100, len(self.files_cover)))
-            self.files_secret = random.sample(self.files_secret, min(100, len(self.files_secret)))
+            self.files_cover = random.sample(self.files_cover, min(50, len(self.files_cover)))
+            self.files_secret = random.sample(self.files_secret, min(50, len(self.files_secret)))
             
             # Combine lists, ensuring equal length
             min_len = min(len(self.files_cover), len(self.files_secret))
