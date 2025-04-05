@@ -18,6 +18,7 @@ class Hinet_Dataset(Dataset):
 
         self.transform = transforms_
         self.mode = mode
+        mode="val"
         if mode == 'train':
             # train
             print(f"Train path: {c.TRAIN_PATH}")
