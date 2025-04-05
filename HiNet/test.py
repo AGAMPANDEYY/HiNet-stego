@@ -55,12 +55,15 @@ weight_scheduler = torch.optim.lr_scheduler.StepLR(optim, c.weight_step, gamma=c
 load("/kaggle/input/hinet-stego/pytorch/default/1/model_checkpoint_01000 (1).pt")
 net.eval()
 
+print("model loaded")
+
 dwt = common.DWT()
 iwt = common.IWT()
 
 
 with torch.no_grad():
     for i, data in enumerate(datasets.testloader):
+        print("in the loop")
         data = data.to(device)
         cover = data[data.shape[0] // 2:, :, :, :]
         secret = data[:data.shape[0] // 2, :, :, :]
