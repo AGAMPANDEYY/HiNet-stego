@@ -32,7 +32,7 @@ val_freq = 50
 TRAIN_PATH = '/kaggle/input/steganography-imagenet/steganography_dataset_imagenet/train/'#'./data/imagenet/steganography_dataset_imagenet/train/' #/teamspace/studios/this_studio/HiNet-stego/data/imagenet/steganography_dataset_imagenet/train
 VAL_PATH = '/kaggle/input/steganography-imagenet/steganography_dataset_imagenet/test/'
 format_train = 'png'
-format_val = 'png'
+format_val = 'jpeg'
 
 # Display and logging:
 loss_display_cutoff = 2.0
