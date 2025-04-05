@@ -49,10 +49,10 @@ checkpoint_on_error = True
 SAVE_freq = 50
 
 IMAGE_PATH = './output/image/'
-IMAGE_PATH_cover = IMAGE_PATH + 'cover/'
-IMAGE_PATH_secret = IMAGE_PATH + 'secret/'
-IMAGE_PATH_steg = IMAGE_PATH + 'steg/'
-IMAGE_PATH_secret_rev = IMAGE_PATH + 'secret-rev/'
+IMAGE_PATH_cover = IMAGE_PATH + 'cover-valid/'
+IMAGE_PATH_secret = IMAGE_PATH + 'secret-valid/'
+IMAGE_PATH_steg = IMAGE_PATH + 'steg-valid/'
+IMAGE_PATH_secret_rev = IMAGE_PATH + 'secret-rev-valid/'
 
 # Load:
 suffix = 'model.pt'
