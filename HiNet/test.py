@@ -51,8 +51,8 @@ params_trainable = (list(filter(lambda p: p.requires_grad, net.parameters())))
 optim = torch.optim.Adam(params_trainable, lr=c.lr, betas=c.betas, eps=1e-6, weight_decay=c.weight_decay)
 weight_scheduler = torch.optim.lr_scheduler.StepLR(optim, c.weight_step, gamma=c.gamma)
 
-load(c.MODEL_PATH + c.suffix)
-
+#load(c.MODEL_PATH + c.suffix)
+load("/kaggle/input/hinet-stego/pytorch/default/1/model_checkpoint_01000 (1).pt")
 net.eval()
 
 dwt = common.DWT()
