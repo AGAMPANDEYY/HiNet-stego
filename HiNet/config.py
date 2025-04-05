@@ -30,7 +30,7 @@ val_freq = 50
 
 # Dataset
 TRAIN_PATH = '/kaggle/input/steganography-imagenet/steganography_dataset_imagenet/train/'#'./data/imagenet/steganography_dataset_imagenet/train/' #/teamspace/studios/this_studio/HiNet-stego/data/imagenet/steganography_dataset_imagenet/train
-VAL_PATH = './data/imagenet/steganography_dataset_imagenet/val/'
+VAL_PATH = '/kaggle/input/steganography-imagenet/steganography_dataset_imagenet/test/'
 format_train = 'png'
 format_val = 'png'
 
