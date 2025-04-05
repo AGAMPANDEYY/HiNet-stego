@@ -63,7 +63,6 @@ iwt = common.IWT()
 
 with torch.no_grad():
     for i, data in enumerate(datasets.testloader):
-        print("in the loop")
         data = data.to(device)
         cover = data[data.shape[0] // 2:, :, :, :]
         secret = data[:data.shape[0] // 2, :, :, :]
